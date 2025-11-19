@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Stack Sans", sans-serif;
+    font-weight: 30;
+}
+
+p {
+    padding: 0px 0px;
+}
+
+.cookie-jar {
+    background-color: #83dcff;
+    color: #27038b;
+    padding: 48px 0px;
+}
+.ugly-cookie-jar {
+    background-color: #fffecd;
+    color: rgb(145, 107, 38);
+    padding: 48px 0px;
+}
+
+.best-jar {
+    background-color: #cdffe2;
+    color: rgb(38, 145, 79);
+    padding: 48px 0px;
+}
+
+.oreo {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    padding: 0px 40px;
+}
+
+.button-one {
+    display: inline-block;
+    background-color: #768cee;
+    color: #27038b;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 18px;
+    min-width: 30px;
+    font-size: px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    vertical-align: center;
+}
+
+.button-two {
+    display: inline-block;
+    background-color: #eed876;
+    color: #b17300;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 18px;
+    min-width: 30px;
+    font-size: px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    vertical-align: center;
+}
+
+#classic-oreo {
+    width: 500px;
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+#oreo {
+    width: 500px;
+    padding: 2px;
+    margin: 2px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Stack+Sans+Headline:wght@200..700&display=swap');
