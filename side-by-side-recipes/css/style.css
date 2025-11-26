@@ -17,7 +17,7 @@ body {
 }
 
 .side-by-side .image-container,
-.side-by-side .content-container {
+.side-by-side .container {
     flex: 1;
 }
 
@@ -25,7 +25,7 @@ body {
     width: 100%;
 }
 
-#recipe-intro {
+#recipe {
     gap: 36px;
     align-items: center;
     padding: 36px 0px;
@@ -34,26 +34,26 @@ body {
     margin-bottom: 60px;
 }
 
-#recipe-intro img {
+#recipe img {
     height: 450px;
     object-fit: cover;
 }
 
-#recipe-intro h1 {
+#recipe h1 {
     font-family: serif;
 }
 
-#recipe-intro h5 {
+#recipe h5 {
     letter-spacing: 2px;
     font-weight: 100;
 }
 
-#recipe-intro .times {
+#recipe .times {
     font-size: 10px;
     letter-spacing: 1px;
 }
 
-#recipe-intro .times.side-by-side {
+#recipe .times.side-by-side {
     gap: 36px;
     margin-bottom: 12px;
 }
@@ -62,12 +62,12 @@ body {
     font-weight: bold;
 }
 
-#recipe-intro p {
+#recipe p {
     font-size: 12px;
     line-height: 18px;
 }
 
-#recipe-intro a {
+#recipe a {
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -82,7 +82,7 @@ body {
         color 0.75s;
 }
 
-#recipe-intro a:hover {
+#recipe a:hover {
     background-color: blanchedalmond;
     color: black;
 }
@@ -93,31 +93,31 @@ body {
     font-family: serif;
 }
 
-#three-cards {
-    gap: 36px;
+#carosel {
+    gap: 35px;
 }
 
-#three-cards .sorta-card {
+#carosel .sorta-card {
     flex: 1;
     text-align: center;
 }
 
-#three-cards .sorta-card a {
+#carosel .sorta-card a {
     color: black;
     text-decoration: none;
 }
 
-#three-cards .sorta-card a:hover img {
+#carosel .sorta-card a:hover img {
     opacity: 0.6;
 }
 
-#three-cards .sorta-card img {
+#carosel .sorta-card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
 
-#three-cards .sorta-card h4 {
+#carosel .sorta-card h4 {
     font-size: 16px;
     letter-spacing: 2px;
     font-weight: 100;
