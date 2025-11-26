@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+        margin: 0px;
+    font-family: sans-serif; 
+    background-color: #ff62a4;
+}
+
+#two-columns {
+    margin: 48px 0px;
+    display: grid;
+    grid-template-columns: 1fr 550px 280px 1fr;
+    grid-template-areas: 
+        ". main-area sidebar-area .";
+}
+
+#sidebar-content {
+    grid-area: sidebar-area;
+    margin-left: 12px;
+}
+
+#sidebar-content h2 {
+    background-color: #ffbfd4;
+    color: #6d193c;
+    padding: 8px 16px;
+    margin: 0px;
+}
+
+#sidebar-content ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#sidebar-content ul li {
+    font-size: 20px;
+}
+
+#sidebar-content ul a {
+    display: block;
+    color: #ffc0d8;
+    text-decoration: none;
+    padding: 10px 16px;
+    font-weight: bold;
+}
+
+#sidebar-content ul a:hover {
+    background-color: #e11a66;
+    color: #383032;
+}
+
+.Undertale-Image {
+    margin-right: 16px;
+    grid-area: main-area;
+}
+
+#first-column {
+    background-color: #f84690;
+    flex: 1;
+}
+
+.Undertale-Image {
+    color: aliceblue;
+
+}
+#Mettaton {
+    width: 500px;
+    border: 20px outset rgb(255, 252, 103);
+    background-color: #4d1ece;
+    display: inline-block;
+    vertical-align: center;
+    
+}
+    
+.Mettaton {
+    font-family: 'Lucida Sans'
+}
+
+.true-gossip {
+    font-family: 'Franklin Gothic Medium';
+}
+
+.first-column {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
