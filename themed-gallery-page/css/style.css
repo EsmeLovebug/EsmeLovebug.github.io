@@ -21,13 +21,6 @@ body {
     padding: 10vw;
 }
 
-#hero h1 {
-    color: white;
-    font-size: 72px;
-    text-align: center;
-    margin: 410px;
-}
-
 #single-column-layout {
     max-width: 1200px;
     margin: 48px auto;
